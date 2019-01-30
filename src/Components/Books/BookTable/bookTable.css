@@ -1,0 +1,71 @@
+.Book-Table-Outer-Container{
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+.Book-List-Title{
+    background-color: #208b49;
+    display: inline-block;
+    margin: 110px 0px 20px 0px;
+    padding: 15px;
+    color: #eee;
+    font-size: 20px;
+    width: 340px;
+}
+
+.Book-Table{
+   border-collapse: separate;
+   width: 1000px;
+   font-size: 14px;
+}
+
+.Book-Table-Heading{
+    background-color:black;
+    color: #eee;
+}
+.Book-Table-Body{
+    background-color: white;
+}
+
+.Book-Table-Body tr:nth-child(odd){
+    background-color: #eee;
+}
+
+.Book-Table-Heading-Row th{
+    padding: 5px 10px;
+}
+
+.Book-Table-Body-Row td{
+    text-transform: capitalize;
+    padding: 2px 5px;
+    width: 50px;
+}
+
+.Delete-Btn{
+    margin: 0px 15px;
+    font-size: 18px;
+}
+
+.Update-Btn{
+    margin: 0px 15px;
+    font-size: 18px;
+}
+
+.Add-Btn{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Add-Btn:hover{
+    color: #208b49;
+}
+
+.Delete-Btn:hover{
+    cursor: pointer;
+    color: #ac0202;
+}
+
+.Update-Btn:hover{
+    cursor: pointer;
+    color: #055dcf;
+}
